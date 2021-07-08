@@ -25,6 +25,7 @@ button{
     background: rgb(255, 165, 0);
     border: 1px black solid;
     cursor: pointer;
+    margin-top : 20px; 
     transition: 0.5s ease-in-out all;
     height: 60px;
 }
