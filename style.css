@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(255, 207, 189);
+}
+div {
+  margin-top: 6rem;
+  object-fit: contain;
+  background-image: url(https://cdn2.thecatapi.com/images/7cn.jpg);
+  width: 400px;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: 100% 100%;
+  border: 4px black solid;
+}
+
+a {
+  padding: 1rem 2rem;
+  margin: 3px 0 4rem 0;
+  color: black;
+  background-color: coral;
+  text-decoration: none;
+  font-weight: bold;
+  border: 4px black solid;
+}
+@media screen and (max-width: 800px) {
+  div {
+    margin-top: 4rem;
+    width: 300px;
+    height: 500px;
+    border: 4px black solid;
+    object-fit: cover;
+  }
+  a{
+    width: 92%;
+  }
+}
